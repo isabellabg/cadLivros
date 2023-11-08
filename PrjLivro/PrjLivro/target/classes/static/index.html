@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+    <title>Cadastro e Pesquisa de Jogos</title>
+    
+<link rel="stylesheet" href="estilos.css">
+<href="https://www.grandvincent-marion.fr"></href>
+</head>
+<body>
+    <body> 
+      
+        <h1>Cadastro e Pesquisa de Livro</h1>        
+        <div id="cadastro">
+            <h2>Cadastro de Livro</h2>
+            <form id="cadastroForm">
+                <label for="descricao">Descrição:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="isbn">Isbn:</label>
+                <input type="text" id="descricao" name="plataform" required><br>
+
+        <button class="custom-btn btn-6" onclick="cadastrarJogo()"><span>Cadastrar</span></button>
+    </form>
+</div>
+
+<div id="pesquisa">
+        <h2>Pesquisa de Jogo</h2>
+        <form id="pesquisaForm">
+            <label for="searchId">ID do Jogo:</label>
+            <input type="text" id="searchId" name="searchId"><br>
+
+            <button class="custom-btn btn-6" onclick="pesquisarJogo()">Pesquisar</button>
+        </form>
+        <div id="resultadoPesquisa"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
